@@ -1,6 +1,10 @@
 import discord
 from random import randint
 from discord.ext import commands
+import asyncio
+import random
+import os
+from discord.ext.commands import Bot
 
 client = commands.Bot(command_prefix='$')
 
